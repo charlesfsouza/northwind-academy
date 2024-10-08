@@ -4,7 +4,6 @@ with
         from {{ source('erp_northwind', 'category') }}
      )   
 
-ID, CATEGORYNAME, DESCRIPTION
      ,renomeacao as (
         select
             cast(ID as int) as pk_categoria
