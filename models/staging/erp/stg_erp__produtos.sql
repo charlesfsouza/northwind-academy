@@ -15,7 +15,7 @@ with
             ,cast(UNITSINSTOCK as int) as QTD_ESTOQUE
             ,cast(UNITSONORDER as varchar) as QTD_PRODUTO_ORDEM
             ,cast(REORDERLEVEL as int) as NIVEL_NOVA_ORDEM
-            ,cast(DISCONTINUED as int) as IND_DESCONTINUADO)
+            ,cast(DISCONTINUED as int) as IND_DESCONTINUADO
 
 
         from fonte_produtos
