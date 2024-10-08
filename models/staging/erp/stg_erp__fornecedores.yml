@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: stg_erp__fornecedores
+    description: Tabela de preparação dos dados brutos dos fornecedores dos produtos.
+
+    columns:
+      - name: PK_FORNECEDOR
+        description: Chave primaria da categoria do produto.
+
+      - name: NOME_FORNECEDOR
+        description: Nome da categoria do produto.
+
+      - name: NOME_CONTATO
+        description: Descricao da categoria do produto.
+
+      - name: TITULO
+        description: Descricao da categoria do produto.
+
+      - name: ENDERECO
+        description: Descricao da categoria do produto.
+
+      - name: CIDADE
+        description: Descricao da categoria do produto.
+
+      - name: REGIAO
+        description: Descricao da categoria do produto.
+
+      - name: CODIGO_POSTAL
+        description: Descricao da categoria do produto.
+
+      - name: PAIS
+        description: Descricao da categoria do produto.
+
+      - name: TELEFONE
+        description: Descricao da categoria do produto.
+
+      - name: FAX
+        description: Descricao da categoria do produto.
+
+      - name: HOME_PAGE
+        description: Descricao da categoria do produto.
