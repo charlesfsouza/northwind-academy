@@ -5,20 +5,12 @@ models:
     description: Tabela de preparação dos dados brutos dos fornecedores dos produtos.
 
     columns:
-      - name: PK_FORNECEDOR
+      - name: PK_CATEGORIA
         description: Chave primaria da categoria do produto.
 
-      - name: NOME_CONTATO
+      - name: NOME_CATEGORIA
         description: Nome da categoria do produto.
 
-      - name: TITULO_CONTATO
+      - name: DESCRICAO_CATEGORIA
         description: Descricao da categoria do produto.
 
-      - name: ENDERECO_FORNECEDOR
-        description: Descricao da categoria do produto.
-
-      - name: TITULO_CONTATO_FORNECEDOR
-        description: Descricao da categoria do produto.
-
-      - name: TITULO_CONTATO_FORNECEDOR
-        description: Descricao da categoria do produto.
