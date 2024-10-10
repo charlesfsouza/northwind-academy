@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: int_produtos
+    description: Tabela de intermediária para a dimensao de produtos
+    columns:
+      - name: pk_produto
+        description: blablabla.
+        data_tests:
+          - unique
+          - not_null
+              
+      - name: fk_categoria
+        description: blablabla.
+        
+      - name: fk_fornecedor
+        description: blablabla.
+      
+      - name: nome_produto
+        description: blablabla.
+        
+      - name: qtd_por_unit
+        description: blablabla.
+        
+      - name: vlr_unit
+        description: blablabla.
+        
+      - name: qtd_estoque
+        description: blablabla.
+        
+      - name: qtd_produto_ordem
+        description: blablabla.
+        
+      - name: nivel_nova_ordem
+        description: blablabla.
+        
+      - name: ind_descontinuado
+        description: blablabla.
+
+      - name: nome_categoria
+        description: blablabla.
+
+      - name: descricao_categoria
+        description: blablabla.
+
+      - name: NOME_FORNECEDOR
+        description: blablabla.
+
+      - name: CIDADE_FORNECEDOR
+        description: blablabla.
+
+      - name: REGIAO_FORNECEDOR
+        description: blablabla.
+
+      - name: PAIS_FORNECEDOR
+        description: blablabla.        
